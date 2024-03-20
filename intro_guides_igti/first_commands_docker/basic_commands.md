@@ -147,3 +147,24 @@ correct one :
 
 > [!Note]
 > webbrowser [localhost:8080](http://localhost:8080/) Shold have your transformed html.
+
+Here the hmt file can be changed direct on the code dir -> my-html/index.html
+If the container stil running after the save of your html +f5, it will be updated.
+
+#### Check out the diference between base html here on the documentation and the file on the repo.
+
+`docker ps` + `docker stop <container id>` after play a litle.
+
+## Removing docker images
+
+`docker images` + `docker image rm nginx:latest` (latest is the tag of the image)
+
+`docker images` shouldnt show nginx image.
+
+could also rm with the id of the image `docker image rm <image id>`
+
+exemple:
+`docker image rm d2c94e258dcb` then `docker images`	
+
+> [!WARNING]
+> For removing a image first need to remove to containers that use it.
