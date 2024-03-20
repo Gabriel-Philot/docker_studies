@@ -1,5 +1,7 @@
 # Basic Commands
 
+# [Link __Docs-Docker__  ](https://docs.docker.com/reference/cli/docker/container/run/)
+
 # [Link __docker hub__  (Repositorio de imagens)](https://hub.docker.com)
 
 ### *Searching images*
@@ -67,7 +69,62 @@ i.e -p = published
 
 `docker run -d -p 8080:80 nginx` then get the id with `docker ps`.
 
+> [!IMPORTANT]
+> webbrowser [localhost:8080](http://localhost:8080/)
+
 going inside the container with: `docker exec -it 8acb88f2a1ac bash`
 
 - (inside the container -> _root@...._) 
 `ls -lh` files and dirs of the container
+
+Extracting the same html from localhost inside the cointainer via terminal.
+`cd usr/share/nginx/html/` -> `ls` -> `cat index.html`
+
+Now exit -> `exit` | Back to the terminal.
+
+
+## PART II
+
+> [!IMPORTANT]
+> Using the **hmtl** from the previus part.
+
+
+`mkdir my-html` -> `nano my-html/index.html` here use base of the html.
+
+Exemple:
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1> My test HTML for docker study with Nginx! </h1>
+<body>
+<html>
+```
+
+- control + o  then enter | saving inside nano 
+- control + x | exit
+
+The file should look into the my-html dir, here the file could be created, using the normal way.
+
+
+### *Creating the volume that use this new htmlt instead of the deafult one*
+i.e. -v = volume
+
+`docker ps` -> get the container id
+`docker stop <container id>` -> `docker rm <container id>`
+
+now we can create the volume with:
+`docker run -d -v {absolute_path_internal}:{path_container}:{reading_only} -p 8080:80 nginx` -> -v {variable} example: 
+{/home/gabriel/linux_folder/studies/docker_03/intro_guides/first_commands_docker/my-html}:
+{/usr/share/nginx/html}:
+{ro}
+
+
