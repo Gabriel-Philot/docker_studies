@@ -1,13 +1,16 @@
 # Starting with docker
 
 ## Checking out if docker is installed
-- docker ps   |    check if there is any cointainer up
+
+> docker ps   |    check if there is any cointainer up
+
 or
-- sudo docker ps
+> sudo docker ps
 
-## For the porpouse of making this reading easier supose that everthing could be used with _**sudo**_ first
 
-- docker -v 
+## For the porpouse of making this reading easier supose that everthing could be used with `sudo` first.
+
+`docker -v `
 
 all cointainers
 
@@ -15,20 +18,22 @@ all cointainers
 
 ### Configuration / setting up for dont need to use sudo anymore
 
-- groupadd docker 
+```
+groupadd docker 
 
-- sudo usermod -aG docker $USER
+sudo usermod -aG docker $USER
 
-- newgrp docker
+newgrp docker
+```
 
 ### First runs
 
-- docker run hello-world
+> docker run hello-world
 
-- docker ps -a
+> docker ps -a
 
-- docker images
+> docker images
 
-- docker run hello-world | Second run without the download.
+> docker run hello-world | Second run without the download.
 
-- docker ps -a
+> docker ps -a
