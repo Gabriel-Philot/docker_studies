@@ -2,14 +2,13 @@
 
 ## Checking out if docker is installed
 
-> docker ps   |    check if there is any cointainer up
+`docker ps   |    check if there is any cointainer up`
 
 or
-> sudo docker ps
-
+`sudo docker ps`
 
 > [!TIP] 
-> For the porpouse of making this reading easier supose that everthing could be used with `sudo` first.
+> For the porpouse of making this reading easier supose that everthing shold/could be used with `sudo` first.
 
 `docker -v `
 
@@ -28,13 +27,10 @@ newgrp docker
 ```
 
 ### First runs
-
-> docker run hello-world
-
-> docker ps -a
-
-> docker images
-
-> docker run hello-world | Second run without the download.
-
-> docker ps -a
+```
+docker run hello-world
+docker ps -a
+docker images
+docker run hello-world | Second run without the download.
+docker ps -a
+```
