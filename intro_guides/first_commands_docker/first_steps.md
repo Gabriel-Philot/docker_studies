@@ -5,16 +5,17 @@
 `docker ps   |    check if there is any cointainer up`
 
 or
+
 `sudo docker ps`
 
 > [!TIP] 
 > For the porpouse of making this reading easier supose that everthing shold/could be used with `sudo` first.
 
-`docker -v `
+`docker -v `    - > docker version
 
 all cointainers
 
-- docker ps -a   | check if there is any cointainer up OR down
+`docker ps -a   | check if there is any cointainer up OR down`
 
 ### Configuration / setting up for dont need to use sudo anymore
 
