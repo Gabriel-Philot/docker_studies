@@ -65,4 +65,8 @@ i.e. -d = detached mode
 ### *Running a container with a pulished image*
 i.e -p = published
 
-`docker run -d -p 8080:80 nginx`
+`docker run -d -p 8080:80 nginx` then get the id with `docker ps`.
+
+going inside the container with: `docker exec -it 8acb88f2a1ac bash`
+
+`#RRGGBB`(inside the container -> root@....) `ls -lh` files and dirs of the container
