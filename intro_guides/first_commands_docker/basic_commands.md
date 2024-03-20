@@ -42,7 +42,7 @@ so if u run `docker ps` after it, u sholdnt see the container running.
 
 `docker rm <container id>` in this example after running `docker ps -a`, we can see the container id, so we can run for example `docker rm bd3378bae039` to remove it.
 
-> [!WARMING]
+> [!WARNING]
 > For removing an container, first it needs to be stoped.
 
 > [!TIP]
