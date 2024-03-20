@@ -89,6 +89,11 @@ Now exit -> `exit` | Back to the terminal.
 > Using the **hmtl** from the previus part.
 
 
+> [!WARNING]
+> CAREFULL ABOUT CHANGING DIRS/FILE NAMES, THIS CAN CAUSE ISSUES.
+
+
+
 `mkdir my-html` -> `nano my-html/index.html` here use base of the html.
 
 Exemple:
@@ -122,9 +127,23 @@ i.e. -v = volume
 `docker stop <container id>` -> `docker rm <container id>`
 
 now we can create the volume with:
-`docker run -d -v {absolute_path_internal}:{path_container}:{reading_only} -p 8080:80 nginx` -> -v {variable} example: 
-{/home/gabriel/linux_folder/studies/docker_03/intro_guides/first_commands_docker/my-html}:
-{/usr/share/nginx/html}:
-{ro}
+`docker run -d -v {absolute_path_internal}:{path_container}:{reading_only} -p 8080:80 nginx` -> -v {variable} example 
+
+correct one :
+`docker run -d -v /home/gabriel/linux_folder/studies/docker_03/intro_guides_igti/first_commands_docker/my-html:/usr/share/nginx/html:ro -p 8080:80 nginx`
+
+now adding `--rm` to automate the removel of the container when it stops.
+
+exemple
+`docker run -d -v {absolute_path_internal}:{path_container}:{reading_only}:ro -rm -p 8080:80 nginx` 
+
+correct one :
+`docker run -d -v /home/gabriel/linux_folder/studies/docker_03/intro_guides_igti/first_commands_docker/my-html:/usr/share/nginx/html/:ro --rm -p 8080:80 nginx`
 
 
+> [!WARNING]
+> Could have trouble wich permission on the folder here -> ``sudo chmod -R 755 /src` not recommended put its a way to goo.
+
+
+> [!Note]
+> webbrowser [localhost:8080](http://localhost:8080/) Shold have your transformed html.
