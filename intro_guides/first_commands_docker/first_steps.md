@@ -8,7 +8,8 @@ or
 > sudo docker ps
 
 
-## For the porpouse of making this reading easier supose that everthing could be used with `sudo` first.
+> [!TIP] 
+> For the porpouse of making this reading easier supose that everthing could be used with `sudo` first.
 
 `docker -v `
 
