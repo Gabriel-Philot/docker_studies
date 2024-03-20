@@ -69,4 +69,4 @@ i.e -p = published
 
 going inside the container with: `docker exec -it 8acb88f2a1ac bash`
 
-`#RRGGBB`(inside the container -> root@....) `ls -lh` files and dirs of the container
+`#RRGGBB``#0969DA`(inside the container -> root@....) `ls -lh` files and dirs of the container
