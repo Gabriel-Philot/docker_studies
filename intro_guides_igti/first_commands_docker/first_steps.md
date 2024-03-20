@@ -1,6 +1,6 @@
 # Starting with docker
 
-## Checking out if docker is installed
+### Checking out if docker is installed
 
 `docker ps   |    check if there is any cointainer up`
 

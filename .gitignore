@@ -1,0 +1,6 @@
+*.venv/
+*.venv
+intro_guides_igti/build_image/first_docker_image/venv
+intro_guides_igti/build_image/first_docker_image/src/__pycache__
+intro_guides_igti/build_image/first_docker_image/src/__pycache__/*
+intro_guides_igti/build_image/first_docker_image/src/__pycache__/
