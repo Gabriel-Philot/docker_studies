@@ -1,0 +1,22 @@
+services:
+
+  webapi:
+    build:
+      context: .
+    pull_policy: build
+    ports:
+      - "8080:8000"
+    networks:
+      - web-network
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7.0.5
+    ports:
+      - 6379:6379
+    networks:
+      - web-network
+
+networks:
+  web-network: {}
