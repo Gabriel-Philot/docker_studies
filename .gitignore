@@ -1,6 +1,12 @@
-*.venv/
+# Ignore pycache folders
+__pycache__/
+
+# Ignore virtualenv folders
+venv/
+*venv/
+venv
 *.venv
-intro_guides_igti/build_image/first_docker_image/venv
-intro_guides_igti/build_image/first_docker_image/src/__pycache__
-intro_guides_igti/build_image/first_docker_image/src/__pycache__/*
-intro_guides_igti/build_image/first_docker_image/src/__pycache__/
+
+# Ignore IDE config folders
+.idea/
+.vscode/
