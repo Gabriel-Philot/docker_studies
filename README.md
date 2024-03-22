@@ -1,4 +1,4 @@
-![Título da Imagem](https://img.mandic.com.br/blog/2015/01/docker-image.png)
+![main_docker](https://img.mandic.com.br/blog/2015/01/docker-image.png)
 
 # DOCKER STUDIES
 
@@ -76,4 +76,9 @@ This studies had a good documentation on the commands needed to get it done in e
 ###  5:  [build_images/third_docker_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/third_docker_image)
 
 
+
+![main_docker](https://github.com/Gabriel-Philot/docker_studies/blob/main/build_images/third_docker_image/docker_classSlot.png)
+
+
+> Hope this will serve anyone but my-self and sorry about bad-writing, one of my goals here was to praticate this as well.
 

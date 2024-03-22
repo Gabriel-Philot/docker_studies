@@ -44,5 +44,8 @@ then cd back to the first docker image dir and run `source venv/bin/activate`
 > Here other test can be done with stoping a single container with `docker stop container_id` and run `docker start container_id`
 betwen this two commands the count will be saved in redis. That can be checked on the terminal and inside the docker container with `docker exec -it container_id bash` and `redis-cli`.
 
+![main_app](https://github.com/Gabriel-Philot/docker_studies/blob/main/build_images/third_docker_image/docker_classSlot.png)
+
+
 Problably wil use this v0 to envolve in a more mature and strutured v1.
 
