@@ -80,5 +80,5 @@ This studies had a good documentation on the commands needed to get it done in e
 ![main_app](https://github.com/Gabriel-Philot/docker_studies/blob/main/build_images/third_docker_image/docker_classSlot.png)
 
 
-> Hope this will serve anyone but my-self and sorry about bad-writing, one of my goals here was to praticate this as well.
+> Hope this serve anyone and sorry about bad-writing, one of my goals here was to praticate this as well.
 
