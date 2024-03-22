@@ -22,7 +22,7 @@ This studies had a good documentation on the commands needed to get it done in e
 
 ## (1)
 ```
- - Checking that Docker is installed
+ - Checking if Docker is installed
  - Making any needed Linux config changes
  - Running a simple "hello world" Docker
 ```
