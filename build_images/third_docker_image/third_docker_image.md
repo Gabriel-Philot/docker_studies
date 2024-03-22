@@ -47,5 +47,4 @@ betwen this two commands the count will be saved in redis. That can be checked o
 ![main_app](https://github.com/Gabriel-Philot/docker_studies/blob/main/build_images/third_docker_image/docker_classSlot.png)
 
 
-Problably wil use this v0 to envolve in a more mature and strutured v1.
-
+Problably wil use this v0 to envolve in a more mature and strutured v1. That will cover in more deep the analises of the usage of slots in classes and related topics do the aplication, for this v0 the focus were puraly the making a custumaplication with persistant data.
