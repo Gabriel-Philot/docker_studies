@@ -4,7 +4,7 @@
 
 ### [Link __docker-docs__  ](https://docs.docker.com/reference/cli/docker/container/run/)
 
-### [Link __docker hub__  (Repositorio de imagens)](https://hub.docker.com)
+### [Link __docker hub__  (Images Repo)](https://hub.docker.com)
 
 ## First start creating the following stetup + Local Dev test again:
 same struture as the first docker image -> create dir src/api.py and dockerfile in the dir at same hierarchy as src.

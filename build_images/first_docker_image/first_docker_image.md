@@ -4,7 +4,7 @@
 
 ### [Link __docker-docs__  ](https://docs.docker.com/reference/cli/docker/container/run/)
 
-### [Link __docker hub__  (Repositorio de imagens)](https://hub.docker.com)
+### [Link __docker hub__  (Images Repo)](https://hub.docker.com)
 
 
 ## DEV LOCAL app first
