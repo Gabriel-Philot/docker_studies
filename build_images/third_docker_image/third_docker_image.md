@@ -18,7 +18,7 @@ then cd back to the first docker image dir and run `source venv/bin/activate`
 > [!NOTE]
 > My goal here where to study the performance of sloting in dataClass, but but free to go with other python use.
 
-> I did like the second-image, did the solution without redis and streamlit (only the python part) first, then went to adding booth and adjusting the code, one trick thing here is that maybe there is better way to debuging with redis, but i did tons of dockers-composes for adjusting it, cause it needed to be running for the tests.
+> Like the second-image, desenvolve first the solution without redis and streamlit (only the python part), then went to adding booth and adjusting the code, the trick thing here is that maybe have an better way to debuging with redis, but i did tons of dockers-composes to adjust, cause redis was required to be running for the tests.
 
 > [!Tip]
 > Start developing the streamlit locally `streamlit main.py`
