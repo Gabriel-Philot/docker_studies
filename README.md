@@ -14,7 +14,7 @@
 
 
 > [!WARNING] 
-> REQUIREMENTS : docker, python, some IDE  | All here where developed using WLS2 (Ubunto) in vscode.
+> REQUIREMENTS : docker, python, some IDE  | All development was done using WSL2 (Ubuntu) in Visual Studio Code.
 
 **There's tons of good contents about how to install the requeriments.**
 
