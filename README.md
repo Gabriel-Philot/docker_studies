@@ -63,7 +63,7 @@ This studies had a good documentation on the commands needed to get it done in e
  - Using redis for persisting data on the aplication.
 ```
 
-###  4:  [build_images/second_docker_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/second_docker_image)
+###  [build_images/second_docker_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/second_docker_image)
 
 ## (5)
 ```
@@ -73,7 +73,7 @@ This studies had a good documentation on the commands needed to get it done in e
  - Diferent aproches via dockerfile/compose for using modules in the Streamlit_SlotDataClass volume.
 ```
 
-###  5:  [build_images/third_docker_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/third_docker_image)
+###  [build_images/third_docker_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/third_docker_image)
 
 
 
