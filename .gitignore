@@ -10,3 +10,6 @@ venv
 # Ignore IDE config folders
 .idea/
 .vscode/
+
+# Ignore Envs secrets file
+.env

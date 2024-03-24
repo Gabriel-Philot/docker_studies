@@ -23,7 +23,7 @@ if artist_name:
         st.write(html, unsafe_allow_html=True)
 
     
-        st.title("All the data from the DB")
+        st.title("Reading all the data from table persist_top10_data")
         query = "SELECT * FROM persist_top10_data"
         df = query_data(query)
         num_rows = df.shape[0]

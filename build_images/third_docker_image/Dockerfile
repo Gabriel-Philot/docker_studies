@@ -12,4 +12,4 @@ WORKDIR /src
 
 COPY src /src
 
-CMD ["streamlit", "run", "/src/streamlit.py.py"]
+#CMD ["streamlit", "run", "/src/streamlit.py.py"]
