@@ -76,8 +76,14 @@ This studies had a good documentation on the commands needed to get it done in e
 ###  [build_images/third_docker_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/third_docker_image)
 
 
+## (6)
+```
+ - Spotify ETL application using Docker containers
+ - Docker-compose to run PostgresSQL and Spotify_etl_app containers together.
+ - Using PostgresSQL for persisting data on the aplication.
+```
 
-![main_app](https://github.com/Gabriel-Philot/docker_studies/blob/main/build_images/third_docker_image/docker_classSlot.png)
+### [build_images/third_docker_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/spotify_aplication_image)
 
 
 > Hope this serve anyone and sorry about bad-writing, one of my goals here was to praticate this as well.
