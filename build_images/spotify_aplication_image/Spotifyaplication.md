@@ -1,4 +1,4 @@
-# Four Docker Image -> Spotify + Etlaplication + PostgresSQL
+# Fourth Docker Image -> Spotify + Etlaplication + PostgresSQL
 
 ## Documentation
 
