@@ -48,6 +48,9 @@ So what i did was: Dev Api extraction, transforming the data and streanlit local
 > CAREFUL WITH THE IMAGE RESIDUE, sometimes its better to remove it in case u cant debug the aplication.
 
 
+Below wil be some images of the app arquiteture and the final resulsts:
+
+
 ![Resume-draw](https://github.com/Gabriel-Philot/docker_studies/blob/main/build_images/spotify_aplication_image/src/resources/imgs/fluxo.png)
 
 ![result1](https://github.com/Gabriel-Philot/docker_studies/blob/main/build_images/spotify_aplication_image/src/resources/imgs/01_flux.png)
