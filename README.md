@@ -83,7 +83,7 @@ This studies had a good documentation on the commands needed to get it done in e
  - Using PostgresSQL for persisting data on the aplication.
 ```
 
-### [build_images/third_docker_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/spotify_aplication_image)
+### [build_images/spotify_image](https://github.com/Gabriel-Philot/docker_studies/tree/main/build_images/spotify_aplication_image)
 
 
 ![Resume-draw](https://github.com/Gabriel-Philot/docker_studies/blob/main/build_images/spotify_aplication_image/src/resources/imgs/fluxo.png)
