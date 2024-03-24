@@ -17,9 +17,9 @@ here to starta new venv -> `python3 -m venv venv`
 `source venv/bin/activate`
 
 > [!Tip]
-> Start with developing the Extract part, then the Transform and Load parts separately, then integrate. This makes debugging easier.
+> Start with developing the Extract/Transform and Load parts separately, then integrate. This makes debugging easier.
 
-So what i did was: Dev Api extraction, transforming the data and streanlit locally in venv.
+So what i did was: Dev Api extraction, transforming the data and streamlit locally in venv.
 
 > [!Tip]
 > For dev the load part, i used one separete docker-compose, for getting up the postgress for test it
